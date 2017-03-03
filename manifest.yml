@@ -1,0 +1,9 @@
+---
+applications:
+- name: rabbittest
+  services:
+  - qirabbitmq
+  memory: 1G
+  random-route: true
+  instances: 1
+  path: target/rabbitmq-perf-webapp-0.0.1-SNAPSHOT.jar
