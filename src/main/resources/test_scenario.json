@@ -1,0 +1,1 @@
+{"name": "consume", "type": "simple", "params": [{"time-limit": 30, "producer-count": 10, "consumer-count": 2}]}
